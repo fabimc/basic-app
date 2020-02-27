@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  content-source:
+    image: fmonte/basic-app:latest
+    ports:
+      - 3003:3003
